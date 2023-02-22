@@ -3,9 +3,10 @@ const router = express.Router();
 const RetsiController = require("../Controllers/AggretsukiController")
 
 router
-  .get("/", RetsiController.getCharacter)
-  .post("/newCharacter", RetsiController.postNewCharacter)
-  .put("/Character/:id")
-  .delete("/RemoveCharacter")
+  .get("/Characters", RetsiController.getCharacters) //bien
+  .get("/Character/:id", RetsiController.getCharacter) //bien
+  .post("/newCharacter", RetsiController.postNewCharacter) //bien
+  .put("/CharacterEdit/:id", RetsiController.editCharacter)
+  .delete("/RemoveCharacter/:id", RetsiController.deleteCharacter) //bien
 
 module.exports = router;

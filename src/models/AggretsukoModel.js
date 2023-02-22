@@ -14,4 +14,6 @@ const characterSchema = new mongoose.Schema({
 });
 
 //export mongose colelction to use in routes
+
+
 module.exports= mongoose.model("Characters", characterSchema)
