@@ -11,7 +11,7 @@ exports.getCharacters = async (req, res) => {
 
 exports.getCharacter = async (req, res) => {
   try {
-    const result = await Character.findById(req.params.id);
+    const result = await Character.findById(req.params.id); //va un id guardado como parametro
     if (result) {
       res.status(200).json(result);
     } else {
