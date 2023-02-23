@@ -16,7 +16,7 @@ Install Aggretsuko-api with git clone https://github.com/valentinapuentesgarzon/
   npm i nodemon eslint eslint-configprettier eslint-plugin-prettier prettier -D
   npm run dev 
 ```
-    *Local Installation with nodemon/ port 3020
+
 ## Documentation
 
  - [HTTP Protocol Overview](https://developer.mozilla.org/es/docs/Web/HTTP/Overview)
