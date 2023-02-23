@@ -8,9 +8,9 @@ You can view the api in the following link: https://aggretsuko-api.onrender.com/
 
 ## Installation
 
-Install Aggretsuko-api with git clone https://github.com/valentinapuentesgarzon/Aggretsuko-Api.git
 
 ```bash
+  git clone https://github.com/valentinapuentesgarzon/Aggretsuko-Api.git
   cd Folder
   npm install
   npm i nodemon eslint eslint-configprettier eslint-plugin-prettier prettier -D
