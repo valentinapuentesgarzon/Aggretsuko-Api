@@ -26,7 +26,7 @@ Install Aggretsuko-api with git clone https://github.com/valentinapuentesgarzon/
  - [Manejo de errores y códigos de estado HTTP](https://www.youtube.com/watch?v=42W9WrmfKbI)
 
 
-## Tecnologies
+## Technologies
 - Node.js
 - Mongo DB
 - Express
